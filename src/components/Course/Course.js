@@ -16,7 +16,7 @@ const Course = (props) => {
           <h5 className="card-title card-heading">{title}</h5>
           <p className="card-text">{body}</p>
         </div>
-        <div className="d-flex justify-content-around border-top">
+        <div className="d-flex justify-content-around border-top pt-2">
           <p className="age">{age} y/o</p>
           <p className="price">${price} p/month</p>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./TopSection.css";
 const TopSection = () => {
   return (
@@ -17,9 +18,11 @@ const TopSection = () => {
         challenging and rewarding academic programs for pre-school,
         kindergarten, elementary and junior high school students ages 2 – 14.
       </p>
-      <button className="regular-btn border-0 btn btn-primary py-3 px-4 rounded-pill">
-        Explore Courses
-      </button>
+      <NavLink className="link" activeClassName="selected" to="/courses">
+        <button className="regular-btn border-0 btn btn-primary py-3 px-4 rounded-pill">
+          Explore Courses
+        </button>
+      </NavLink>
     </div>
   );
 };

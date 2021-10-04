@@ -2,7 +2,9 @@ footer {
   background-image: linear-gradient(to right, #4255a4, #314ec0);
 }
 .logo,
-h2 {
+h2,
+h1,
+h5 {
   font-family: "Concert One", cursive;
 }
 .link a {

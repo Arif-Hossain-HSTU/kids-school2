@@ -9,17 +9,12 @@ const Courses = () => {
       .then((data) => setCourses(data));
   }, []);
   return (
-    <div className="container">
+    <div className="container my-5">
       <h1 className="heading text-center my-5">OUR COURSES</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {courses.map((course) => (
           <Course course={course}></Course>
         ))}
-      </div>
-      <div className="text-center my-5">
-        <button className="regular-btn border-0 btn btn-primary py-3 px-4 rounded-pill">
-          More Services
-        </button>
       </div>
     </div>
   );

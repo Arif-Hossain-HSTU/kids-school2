@@ -2,9 +2,12 @@
   color: #ed078b;
 }
 .age {
-  color: #1f97d4;
+  color: #007dbb;
 }
 .price {
   font-size: 20px;
   color: #e40000;
+}
+.card-body {
+  box-shadow: 5px 9px 25px -3px rgba(0, 0, 0, 0.47);
 }

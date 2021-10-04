@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import Service from "../Service/Service";
 
 const Services = () => {
@@ -18,9 +19,11 @@ const Services = () => {
         ))}
       </div>
       <div className="text-center my-5">
-        <button className="regular-btn border-0 btn btn-primary py-3 px-4 rounded-pill">
-          More Services
-        </button>
+        <NavLink to="/service-detail">
+          <button className="regular-btn border-0 btn btn-primary py-3 px-4 rounded-pill">
+            More Services
+          </button>
+        </NavLink>
       </div>
     </div>
   );

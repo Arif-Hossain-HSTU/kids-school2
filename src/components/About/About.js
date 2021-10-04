@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="container my-5">
       <div>
-        <h2>Welcome to Happy Learn Kindergarten</h2>
+        <h2>Welcome to "Happy Learn Kindergarten"</h2>
         <p>
           Since our founding in 2000, 'Happy Learn Kindergarten' has become one
           of the leading early childhood programs on the Upper West Side and in
@@ -37,6 +37,11 @@ const About = () => {
             <div class="card-body">
               <h5 class="card-title">Mrs. Smith</h5>
               <p class="card-text">Mathmatics Teacher</p>
+              <p className="text-center">
+                <i className="fab fa-facebook-square px-3"></i>
+                <i className="fab fa-twitter-square px-3"></i>
+                <i className="fab fa-instagram px-3"></i>
+              </p>
             </div>
           </div>
         </div>
@@ -51,6 +56,11 @@ const About = () => {
             <div class="card-body">
               <h5 class="card-title">Mrs. Anjelina</h5>
               <p class="card-text">Music Teacher</p>
+              <p className="text-center">
+                <i className="fab fa-facebook-square px-3"></i>
+                <i className="fab fa-twitter-square px-3"></i>
+                <i className="fab fa-instagram px-3"></i>
+              </p>
             </div>
           </div>
         </div>
@@ -65,6 +75,11 @@ const About = () => {
             <div class="card-body">
               <h5 class="card-title">Mr. Jhon</h5>
               <p class="card-text">Science Teacher & Principal</p>
+              <p className="text-center">
+                <i className="fab fa-facebook-square px-3"></i>
+                <i className="fab fa-twitter-square px-3"></i>
+                <i className="fab fa-instagram px-3"></i>
+              </p>
             </div>
           </div>
         </div>
@@ -79,6 +94,11 @@ const About = () => {
             <div class="card-body">
               <h5 class="card-title">Mr. Jason</h5>
               <p class="card-text">Sports Teacher</p>
+              <p className="text-center">
+                <i className="fab fa-facebook-square px-3"></i>
+                <i className="fab fa-twitter-square px-3"></i>
+                <i className="fab fa-instagram px-3"></i>
+              </p>
             </div>
           </div>
         </div>
@@ -93,6 +113,11 @@ const About = () => {
             <div class="card-body">
               <h5 class="card-title">Mrs. Rokujju</h5>
               <p class="card-text">Dance Teacher</p>
+              <p className="text-center">
+                <i className="fab fa-facebook-square px-3"></i>
+                <i className="fab fa-twitter-square px-3"></i>
+                <i className="fab fa-instagram px-3"></i>
+              </p>
             </div>
           </div>
         </div>

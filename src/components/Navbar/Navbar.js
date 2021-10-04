@@ -1,10 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <header>
       <div className="container-fluid px-5 nav-top text-white d-none d-md-block">
+        {/* ----------top nav--------- */}
         <div className="d-flex justify-content-between">
           <address>
             12 New Eskaton Road, Dhaka-1000{" "}
@@ -12,6 +14,7 @@ const Navbar = () => {
               <i class="fas fa-phone-alt"></i> +880-XXXXXXXX
             </span>
           </address>
+          {/* social media icon */}
           <p>
             <i className="fab fa-facebook-square px-3"></i>
             <i className="fab fa-twitter-square px-3"></i>
@@ -20,14 +23,15 @@ const Navbar = () => {
         </div>
       </div>
       <nav className="px-5 navbar navbar-expand-lg bg-white">
+        {/* logo */}
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <NavLink style={{ textDecoration: "none" }} to="/">
             <div className="logo fs-sm-5">
               <span style={{ color: "#1F97D4" }}>Happy</span>
               <span style={{ color: "#ED078B" }}> Learn</span>
               <span style={{ color: "#12D9DF" }}> Kindergarten</span>
             </div>
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -37,31 +41,50 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span>
+              <i class="fas fa-bars"></i>
+            </span>
           </button>
           <div
             className="collapse navbar-collapse justify-content-end"
             id="navbarNavAltMarkup"
           >
+            {/* navbar link */}
             <div className="navbar-nav fs-5">
-              <a className="nav-link" aria-current="page" href="#">
+              <NavLink className="link" activeClassName="selected" to="/">
                 Home
-              </a>
-              <a className="nav-link" href="#">
+              </NavLink>
+              <NavLink
+                className="link"
+                activeClassName="selected"
+                to="/service-detail"
+              >
                 Services
-              </a>
-              <a className="nav-link" href="#">
+              </NavLink>
+              <NavLink
+                className="link"
+                activeClassName="selected"
+                to="/courses"
+              >
                 Courses
-              </a>
-              <a className="nav-link" href="#">
+              </NavLink>
+              <NavLink className="link" activeClassName="selected" to="/about">
                 About Us
-              </a>
-              <a className="nav-link" href="#">
+              </NavLink>
+              <NavLink
+                className="link"
+                activeClassName="selected"
+                to="/contact"
+              >
                 Contact
-              </a>
-              <a className="nav-link" href="#">
+              </NavLink>
+              <NavLink
+                className="link"
+                activeClassName="selected"
+                to="/testimonial"
+              >
                 Testimonial
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

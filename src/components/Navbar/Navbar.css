@@ -4,7 +4,6 @@
 
 h3,
 h4,
-h5,
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -24,4 +23,12 @@ button {
 }
 .navbar-nav a {
   color: #423f8d;
+}
+.selected {
+  color: #ed078b;
+  border-bottom: 2px solid #ed078b;
+}
+.link {
+  text-decoration: none;
+  padding: 0 15px;
 }

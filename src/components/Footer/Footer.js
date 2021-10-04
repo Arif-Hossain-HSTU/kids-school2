@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -36,20 +37,20 @@ const Footer = () => {
         <div className="col-md-3">
           <h2>Quick Links</h2>
           <div className="link d-block mt-4">
-            <a href="/services">Services</a>
-            <a href="/about">About Us</a>
-            <a href="/contact">Contact</a>
-            <a href="/blog">Blog</a>
+            <NavLink to="/service-detail">Services</NavLink>
+            <NavLink to="/about">About Us</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </div>
         </div>
         {/* about us  */}
         <div className="col-md-3">
           <h2>About Us</h2>
           <div className="link d-block mt-4">
-            <a href="/services">Our Team</a>
-            <a href="/about">Privacy Policy</a>
-            <a href="/contact">Testimonial</a>
-            <a href="/blog">Our Stories</a>
+            <NavLink to="/about">Our Team</NavLink>
+            <NavLink to="/policy">Privacy Policy</NavLink>
+            <NavLink to="/testimonial">Testimonial</NavLink>
+            <NavLink to="/stories">Our Stories</NavLink>
           </div>
         </div>
       </div>
