@@ -1,3 +1,4 @@
+import { BrowserRouter, Switch } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
@@ -9,10 +10,14 @@ import Testimonial from "./components/Testimonial/Testimonial";
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <Courses></Courses>
-      <Contact></Contact>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Switch>
+          <Navbar></Navbar>
+          <Courses></Courses>
+          <Contact></Contact>
+          <Footer></Footer>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
