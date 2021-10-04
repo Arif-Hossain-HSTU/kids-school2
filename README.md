@@ -3,7 +3,8 @@
 ---
 
 Hi, I'm **Mr. Jhon** , principal of "Happy Learn Kindergarten". It's the best Kindergarten school in Dhaka city. We offer you the best atmosphere with Qualified Teachers and Environment. We also offer challenging and rewarding academic programs for pre-school, kindergarten, elementary and junior high school students ages **2 – 14**.
-**Visit Our Site** [Happy Learn Kindergarten](https://www.google.com)
+
+### **Visit Our Site** [Happy Learn Kindergarten](https://www.google.com)
 
 ## _Our Speciality:_
 
