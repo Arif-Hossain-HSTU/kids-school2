@@ -1,0 +1,27 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+h3,
+h4,
+h5,
+p {
+  font-family: "Roboto", sans-serif;
+}
+.nav-top {
+  background-color: #ed078b;
+}
+header,
+h1,
+button {
+  font-family: "Concert One", cursive;
+}
+.logo {
+  font-size: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 30px;
+}
+.navbar-nav a {
+  color: #423f8d;
+}

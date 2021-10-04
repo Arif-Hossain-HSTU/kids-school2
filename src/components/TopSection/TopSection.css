@@ -1,0 +1,21 @@
+.top-section {
+  background-image: 
+    /* top, transparent red */ linear-gradient(
+      rgba(208, 150, 150, 0.45),
+      rgba(106, 98, 98, 0.45)
+    ),
+    /* your image */
+      url("https://motherandbaby.blob.core.windows.net/web/1/root/shutterstock-228063805x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-section .logo {
+  font-size: 45px;
+}
+.desc {
+  font-weight: 500;
+  font-size: 20px;
+}
+.regular-btn {
+  background-color: #ed078b;
+}

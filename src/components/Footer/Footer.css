@@ -1,0 +1,17 @@
+footer {
+  background-image: linear-gradient(to right, #4255a4, #314ec0);
+}
+.logo,
+h2 {
+  font-family: "Concert One", cursive;
+}
+.link a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 2rem;
+}
+.fab:hover {
+  color: #161515;
+  cursor: pointer;
+}
